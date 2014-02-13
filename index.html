@@ -20,25 +20,17 @@
         {
           title: 'Tech News',
           url: 'http://tech.updl.net/atom.xml?redirect=false&start-index=1&max-results=500'
-        },
-        {
-          title: 'E-Online',
-          url: 'http://www.eonline.com/syndication/feeds/rssfeeds/topstories.xml'
-        },
-        {
-          title: 'TMZ',
-          url: 'http://www.tmz.com/rss.xml'
         }
       ];
     
       var options = {
         stacked : true,
         horizontal : false,
-        title : "Hollywood News"
+        title : "Tech News"
       };
     
       new GFdynamicFeedControl(feeds, 'content', options);
-      document.getElementById('content').style.width = "400px";
+      document.getElementById('content').style.width = "300px";
     }
     
     google.setOnLoadCallback(OnLoad);
