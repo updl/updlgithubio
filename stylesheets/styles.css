@@ -333,33 +333,33 @@ footer {
   border: 1px solid #BCCDF0;
 }
 
-.gfg-title {
-  font-size: 14px;
-  font-weight : bold;
-  color : #3366cc;
-  background-color: #E5ECF9;
-  line-height : 1.4em;
-  overflow : hidden;
-  white-space : nowrap;
-}
-
-.gfg-title a {
-  color : #3366cc;
+.gfg-subtitle a {
+  color: #808080;
 }
 
 .gfg-subtitle {
+  background-color: #EEEEEE;
+  color: #808080;
   font-size: 12px;
-  font-weight : bold;
-  color : #3366cc;
-  background-color: #E5ECF9;
-  line-height : 1.4em;
-  overflow : hidden;
-  white-space : nowrap;
-  margin-bottom : 5px;
+  font-weight: bold;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.gfg-title {
+  background-color: #EEEEEE;
+  color: #808080;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.4em;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .gfg-subtitle a {
-  color : #3366cc;
+  color : #808080;
 }
 
 .gfg-entry {
