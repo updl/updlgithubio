@@ -54,7 +54,7 @@ return strtotime($feed2->pubDate) - strtotime($feed1->pubDate);
 //Print all the entries
 foreach($entries as $entry){
 ?>
-<li><h2><a href="<?= $entry->link ?>"><?= $entry->title ?></a></h2> (<?= parse_url($entry->link)['host'] ?>)
+<li><a href="<?= $entry->link ?>"><?= $entry->title ?></a> (<?= parse_url($entry->link)['host'] ?>)
 <p><?= strftime('%m/%d/%Y %I:%M %p', strtotime($entry->pubDate)) ?></p>
 <p><?= $entry->description ?></p></li>
 <?php
