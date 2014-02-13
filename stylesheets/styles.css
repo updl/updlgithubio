@@ -330,7 +330,7 @@ footer {
   text-align : center;
   font-family: "Arial", sans-serif;
   font-size: 12px;
-  border: 1px solid #BCCDF0;
+  border: none;
 }
 
 .gfg-subtitle a {
