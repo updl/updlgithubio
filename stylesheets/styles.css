@@ -328,8 +328,8 @@ footer {
   position : relative;
   overflow : hidden;
   text-align : center;
-  font-family: "Arial", sans-serif;
-  font-size: 12px;
+  font-family: Lato,"Arial", sans-serif;
+  font-size: 14px;
   border: none;
 }
 
@@ -351,7 +351,7 @@ footer {
 .gfg-title {
   background-color: #EEEEEE;
   color: #808080;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
   line-height: 1.4em;
   overflow: hidden;
@@ -408,15 +408,6 @@ footer {
 .gfg-listentry-even {
 }
 
-.gfg-listentry-highlight { 
-  background-image : url('garrow.gif');
-  background-repeat: no-repeat;
-  background-position : center left;
-}
-
-/*
- * FeedControl customizations.
- */
 
 .gfg-root .gfg-entry .gf-result .gf-title {
   font-size: 14px;
@@ -449,7 +440,7 @@ footer {
   white-space : nowrap;
   overflow : hidden;
   text-align : center;
-  font-family: "Arial", sans-serif;
+  font-family: Lato,"Arial", sans-serif;
   font-size: 13px;
   border: 1px solid #AAAAAA;
   padding : 5px;
