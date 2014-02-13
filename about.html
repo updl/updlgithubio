@@ -1,55 +1,65 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>updl | About</title>
-	<link rel="canonical" href="http://updl.net/about"/>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>updl.net | About</title>
+	<link rel="canonical" href="http://updl.net/about"/>	
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link href="stylesheets/cover.css" rel="stylesheet">	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="http://updl.net"><strong>updl</strong></a>&nbsp;<small>Beta</small></h1>
-        <p>updl.net</p>
-        <ul>
-          <li><a href="http://updl.net/about">updl <strong>About</strong></a></li>
-		  <li><a href="http://updl.net/contact">Email us <strong>Contact</strong></a></li>
-		  <li><a href="http://updl.net/sitemap">updl <strong>Sitemap</strong></a></li>			  
-        </ul>
-      </header>
-      <section>
-	  <h3><a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>About updl.net</h3>
-      </section>
-      <footer>
-        <p>© 2014 <a href="http://updl.net">updl.net</a> | <small><a href="http://updl.net/about">About</a></small> | <small><a href="http://updl.net/contact">Contact</a></small></p>
-		<p><small>Development by</small> mehdi.it</p>
-      </footer>
+ <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">New Project</h3>
+              <ul class="nav masthead-nav">
+                <li><a href="http://updl.net/">Home</a></li>
+                <li class="active"><a href="http://updl.net/about">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">About updl.net</h1>
+            <p class="lead">Coming soon, a brand new project that will astound you and excite you. Stay tuned!</p>
+            <p class="lead">
+              <a href="https://twitter.com/updl" class="btn btn-lg btn-default">Follow @updl</a>
+            </p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>© 2014 <a href="http://updl.net">updl.net</a></p>
+			  <p>Development by mehdi.it</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
-	<script type="text/javascript">
-	var metas = document.getElementsByTagName('meta');
-var i;
-if (navigator.userAgent.match(/iPhone/i)) {
-  for (i=0; i<metas.length; i++) {
-    if (metas[i].name == "viewport") {
-      metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
-    }
-  }
-  document.addEventListener("gesturestart", gestureStart, false);
-}
-function gestureStart() {
-  for (i=0; i<metas.length; i++) {
-    if (metas[i].name == "viewport") {
-      metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
-    }
-  }
-}
-	</script>
-              <script type="text/javascript">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="javascripts/docs.min.js"></script>
+          <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -58,6 +68,6 @@ function gestureStart() {
               var pageTracker = _gat._getTracker("UA-40769220-1");
             pageTracker._trackPageview();
             } catch(err) {}
-          </script>
+          </script>	
   </body>
 </html>
