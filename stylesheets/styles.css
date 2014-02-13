@@ -99,6 +99,7 @@ header {
   width:300px;
   float:left;
   position:fixed;
+  top:5px;
 }
 
 header ul {
