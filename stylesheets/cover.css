@@ -46,5 +46,5 @@ body{color:#404040; text-decoration:none;}
 }
 @media (min-width:992px){.masthead,
 .mastfoot,
-.cover-container{width:700px;}
+.cover-container{ width: 100%;}
 }
