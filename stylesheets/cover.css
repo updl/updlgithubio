@@ -23,6 +23,7 @@ body{color:#404040; text-decoration:none;}
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus{color:#404040;border-bottom-color:#fff;}
+.mastfoot a {color: #666;}
 @media (min-width:768px){.masthead-brand{float:left;}
 .masthead-nav{float:right;}
 }
