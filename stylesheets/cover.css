@@ -14,12 +14,12 @@ body{color:#404040; text-decoration:none;}
 .masthead-brand{margin-top:10px;margin-bottom:10px;}
 .masthead-nav > li{display:inline-block;}
 .masthead-nav > li + li{margin-left:20px;}
-.masthead-nav > li > a{padding-left:0;padding-right:0;font-size:16px;font-weight:bold;color:#fff;color:#404040;border-bottom:2px solid transparent;}
+.masthead-nav > li > a{padding-left:0;padding-right:0;font-size:16px;font-weight:bold;color:#fff;color:#cccccc;border-bottom:2px solid transparent;}
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus{background-color:transparent;border-bottom-color:rgba(255,255,255,.25);}
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus{color:#fff;border-bottom-color:#fff;}
+.masthead-nav > .active > a:focus{color:#404040;border-bottom-color:#fff;}
 @media (min-width:768px){.masthead-brand{float:left;}
 .masthead-nav{float:right;}
 }
