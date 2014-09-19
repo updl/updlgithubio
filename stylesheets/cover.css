@@ -36,15 +36,17 @@ body{color:#404040; text-decoration:none;}
   right: 0;
   text-align: center;
   width: 100%;
+  position:fixed;
+  bottom:0;
 }
 @media (min-width:768px){.masthead{position:fixed;top:0;}
 .mastfoot{position:fixed;bottom:0;}
 .site-wrapper-inner{vertical-align:middle;}
 .masthead,
-.mastfoot,
-.cover-container{width:100%;}
+.cover-container{width:700px;}
+.mastfoot{width:100%;}
 }
 @media (min-width:992px){.masthead,
-.mastfoot,
-.cover-container{ width: 100%;}
+.cover-container{ width: 900px;}
+.mastfoot{width:100%;}
 }
